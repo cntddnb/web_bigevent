@@ -53,7 +53,11 @@ $(function () {
         layer.msg("登录成功");
         localStorage.setItem("token", res.token);
         // console.log(res.token);
+<<<<<<< HEAD
         location.href = "/index.html";
+=======
+        location.href = "/index.html"; 
+>>>>>>> index
       },
     });
   });
