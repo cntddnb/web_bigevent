@@ -3,7 +3,7 @@ $(function () {
 
   var layer = layui.layer;
   $("#btnLogoout").on("click", function () {
-    layer.confirm("is not?", { icon: 3, title: "提示" }, function (index) {
+    layer.confirm("是否退出登录?", { icon: 3, title: "提示" }, function (index) {
       //do something
       //   console.log("ok");
       // 清空本地存储中的token
